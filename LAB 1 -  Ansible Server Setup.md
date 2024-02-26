@@ -1,6 +1,6 @@
 Login to AWS Console
 
-# Lab 1: Installation and Configuration of Ansible
+# Lab : Installation and Configuration of Ansible
 
 Launch a RHEL 9 instance in us-east-1. 
 Choose t2.micro. 
@@ -11,7 +11,9 @@ Add Tag Name: Ansible-ControlNode
 ```
 sudo hostnamectl set-hostname Control-Node
 ```
-### or you can type 'bash' and open another shell which shows new hostname.
+```
+bash
+```
 
 Update the package repository with latest available versions
 ```
