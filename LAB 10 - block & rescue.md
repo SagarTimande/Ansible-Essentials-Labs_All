@@ -1,7 +1,7 @@
 ## LAB : Blocks with Ansible Playbook
 
 ### Create and edit blklab.yml in the same labs directory 
-#### Notice that the “web_package” variable is an invalid package. Due to the invalid package in a block, tasks under rescue will run
+ Notice that the “web_package” variable is an invalid package. Due to the invalid package in a block, tasks under rescue will run
 ```
 vi blklab.yml
 ```
@@ -35,14 +35,14 @@ vi blklab.yml
 ```
 **save the file using** `ESCAPE + :wq!`
 
-### Execute the playbook
-#### Block tasks fail and that Rescue tasks are running due to the failure of block tasks. The Always tasks run independently
+ Execute the playbook
+ Block tasks fail and that Rescue tasks are running due to the failure of block tasks. The Always tasks run independently
 ```
 ansible-playbook blklab.yml
 ```
-#### Now fix the package name in the Playbook (web_package: httpd) and run the Playbook again
+ Now fix the package name in the Playbook (web_package: httpd) and run the Playbook again
 ```
 ansible-playbook blklab.yml
 ```
 
-#### Notice that the tasks under rescue are not running as block tasks ran successfully.
+ Notice that the tasks under rescue are not running as block tasks ran successfully.
