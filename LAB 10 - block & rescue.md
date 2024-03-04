@@ -35,7 +35,7 @@ vi blklab.yml
 ```
 **save the file using** `ESCAPE + :wq!`
 
- Execute the playbook
+ Execute the playbook,
  Block tasks fail and that Rescue tasks are running due to the failure of block tasks. The Always tasks run independently
 ```
 ansible-playbook blklab.yml
