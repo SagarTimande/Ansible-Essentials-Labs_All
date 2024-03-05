@@ -1,4 +1,4 @@
-## Lab 9: Implementing Jinja2 Templates
+## Lab : Implementing Jinja2 Templates
 
 Create a new directory for templates 
 ```
