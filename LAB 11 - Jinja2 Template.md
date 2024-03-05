@@ -54,5 +54,5 @@ OR, run the the following command to check "welcome Message" which trigered from
 ssh ec2-user@<Managed-Node-IP>
 ```
 ```
-exir
+exit
 ```
