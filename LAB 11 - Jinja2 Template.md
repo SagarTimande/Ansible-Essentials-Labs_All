@@ -49,3 +49,10 @@ For that, do the following:
 ```
 ansible all -m shell -a "cat /etc/motd"
 ```
+OR, run the the following command to check "welcome Message" which trigered from "/etc/motd"
+```
+ssh ec2-user@<Managed-Node-IP>
+```
+```
+exir
+```
