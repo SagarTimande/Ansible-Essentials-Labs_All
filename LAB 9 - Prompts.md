@@ -36,5 +36,9 @@ ssh ec2-user@< managed_node_private_ip >
 rpm -qa | grep httpd
 ```
 ```
+exit
+````
+Once you back to "control-Node", run the following command to verify package from Control-Node
+```
 ansible all -m "command" -a "rpm -qa | grep httpd"
 ```
