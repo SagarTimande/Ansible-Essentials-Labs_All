@@ -28,7 +28,7 @@ mkdir roles && cd roles
 Now inside the roles directory, create a different directory for roles, namely webrole. 
 Now change your directory to webrole 
 ```
-cd .. &&  mkdir webrole && cd webrole/
+mkdir webrole && cd webrole/
 ```
 ```
 mkdir files tasks && cd files/
