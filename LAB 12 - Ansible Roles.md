@@ -1,4 +1,4 @@
-## Lab 1: Implementing Ansible Roles
+## Lab : Implementing Ansible Roles
 
 ```
 cd ~/
