@@ -85,6 +85,32 @@ After the creation of this file, we are done with the complete hierarchy of role
 ```
 cd ../..
 ```
+Now create directory and write codes as mention below
+```
+mkdir dbrole && cd dbrole
+```
+```
+mkdir tasks && cd tasks
+```
+```
+vi main.yaml
+```
+```
+---
+- name: install mariadb-server
+  yum:
+    name: mariadb-server
+    update_cache: yes
+    state: latest
+- name: start mariadb
+  service:
+    name=mariadb
+    state=started
+
+```
+```
+cd ../..
+```
 ```
 tree
 ```
@@ -105,6 +131,7 @@ Add the given content, by pressing "INSERT".
 
    roles:
      - webrole
+     - dbrole
 ```   
 **save the file using** `ESCAPE + :wq!`
 
