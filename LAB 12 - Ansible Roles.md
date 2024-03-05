@@ -117,9 +117,6 @@ tree
 
 Now change the directory to ansible directory and create the playbook as implement-roles.yml
 ```
-cd ..
-```
-```
 vi implement-roles.yml
 ```
 
